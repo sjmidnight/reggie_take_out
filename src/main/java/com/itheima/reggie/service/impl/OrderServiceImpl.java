@@ -96,7 +96,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Orders> implement
         //向订单明细表插入数据，多条数据
         orderDetailService.saveBatch(orderDetails);
 
-        //清空购物车数据
+        //清空购物车数据11
         shoppingCartService.remove(wrapper);
     }
 }
